@@ -21,6 +21,12 @@
     document.addEventListener(admob.Event.onInterstitialReceive, this.onInterstitialReceive, false);
     admob.cacheInterstitial();
     
+    admob.isInterstitialReady(function(isReady){
+    if(isReady){
+        admob.showInterstitial();
+    }
+});
+    
     admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
     
   <author href="https://bigwebsiteidea.com" email="michaeltrombi@gmail.com.com">
