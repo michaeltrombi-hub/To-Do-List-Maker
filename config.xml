@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.BigWebsiteIdea.BrochureApp"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>BrochureApp Template</name>
+
+  <description>
+      by Michael Trombi
+  </description>
+
+  <author href="https://bigwebsiteidea.com" email="michaeltrombi@gmail.com.com">
+      Michael Trombi
+  </author>
+</widget>
