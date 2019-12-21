@@ -15,8 +15,14 @@
     
     <icon src="icon.png" />
     
-    <gap:plugin name="phonegap-admob" source="npm"/>
-
+    <gap:plugin name="com.admob.plugin" version="3.0.0" source="plugins.cordova.io" />
+    admob.initAdmob("ca-app-pub-BANNERID","ca-app-pub-8279078074288110~9169727449");
+    
+    document.addEventListener(admob.Event.onInterstitialReceive, this.onInterstitialReceive, false);
+    admob.cacheInterstitial();
+    
+    admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
+    
   <author href="https://bigwebsiteidea.com" email="michaeltrombi@gmail.com.com">
       Michael Trombi
   </author>
