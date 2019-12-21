@@ -14,6 +14,8 @@
   </description>
     
     <icon src="icon.png" />
+    
+    <gap:plugin name="phonegap-admob" source="npm"/>
 
   <author href="https://bigwebsiteidea.com" email="michaeltrombi@gmail.com.com">
       Michael Trombi
