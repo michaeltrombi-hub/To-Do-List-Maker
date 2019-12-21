@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.BigWebsiteIdea.BrochureApp"
+    id          = "com.MichaelATrombi.todolist"
     versionCode = "10"
     version     = "1.0.0" >
 
 <!-- versionCode is optional and Android only -->
 
-  <name>BrochureApp Template</name>
+  <name>To Do List Maker</name>
 
   <description>
-      by Michael Trombi
+      Easily create a To Do Lists with To Do List Maker. This is a useful app for everyone from students and stay at home moms to contractors and workers needing to organize the days tasks.
   </description>
 
   <author href="https://bigwebsiteidea.com" email="michaeltrombi@gmail.com.com">
