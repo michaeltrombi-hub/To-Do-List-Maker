@@ -17,6 +17,8 @@
     
    <gap:plugin name="phonegap-admob" source="npm"/>
     
+    admob.createBannerView();
+    
   <author href="https://bigwebsiteidea.com" email="michaeltrombi@gmail.com.com">
       Michael Trombi
   </author>
