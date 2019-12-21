@@ -12,6 +12,8 @@
   <description>
       Easily create a To Do Lists with To Do List Maker. This is a useful app for everyone from students and stay at home moms to contractors and workers needing to organize the days tasks.
   </description>
+    
+    <icon src="icon.png" />
 
   <author href="https://bigwebsiteidea.com" email="michaeltrombi@gmail.com.com">
       Michael Trombi
