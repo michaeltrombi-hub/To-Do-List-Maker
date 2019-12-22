@@ -15,11 +15,15 @@
     
     <icon src="icon.png" />
     
-   <gap:plugin name="phonegap-admob" source="npm"/>
-    
   <author href="https://bigwebsiteidea.com" email="michaeltrombi@gmail.com.com">
       Michael Trombi
   </author>
+    
+    <!-- Define the main entry-point to the application -->
+    <content src="index.html" />
+    
+    <!-- Plugins -->
+    <gap:plugin name="phonegap-admob" source="npm"/>
     
     <!--
         Define access to external domains.
