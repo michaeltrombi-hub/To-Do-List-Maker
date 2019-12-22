@@ -19,7 +19,7 @@ function onDeviceReady() {
     document.removeEventListener('deviceready', onDeviceReady, false);
 
     admob.setOptions({
-        publisherId:          "pub-8279078074288110",
+        publisherId:          "ca-app-pub-8279078074288110~9169727449",
         interstitialAdId:     "ca-app-pub-8279078074288110/1995118464",
     });
 
