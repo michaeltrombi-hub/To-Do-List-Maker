@@ -24,6 +24,7 @@
     
     <!-- Plugins -->
     <gap:plugin name="phonegap-admob" source="npm"/>
+    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.7.1" />
     
     <!--
         Define access to external domains.
