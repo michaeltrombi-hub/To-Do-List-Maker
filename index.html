@@ -14,12 +14,20 @@
 
   <a href="todolist.html"><button>Create A To Do List</button></a>
   
-  <a href="https://bigwebsiteidea.com">Created by Michael Trombi at BigWebsiteIdea.com Studio</a>
+  <a href="https://www.bigwebsiteidea.com" onclick="window.open('https://www.bigwebsiteidea.com', '_self', 'location=no');">
+  Created by Michael Trombi at BigWebsiteIdea.com Studio</a>
   
   <script type="text/javascript" src="cordova.js"></script>
   <script type="text/javascript" src="index.js"></script>
   <script type="text/javascript">
     app.initialize();
   </script>
+  <script type="text/javascript" charset="utf-8">
+            function openURL(urlString){
+                myURL = encodeURI(urlString);
+                window.open(myURL, '_self');
+            }     
+
+        </script>
 </body>
 </html>
