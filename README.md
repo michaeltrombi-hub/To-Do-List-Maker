@@ -1,3 +1,3 @@
 # todolist
-![image info](icons/icon.png)
+![image info](icon.png)
 A simple to do list app created by Michael Trombi.
